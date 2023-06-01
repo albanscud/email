@@ -5,6 +5,9 @@ import urllib.parse
 from collections import deque
 import re
 
+'''
+copie pour recuperer les adresse mail avec kalilinux
+'''
 user_url = str(input('[+] Entrez L\'URL Cible � Scanner: '))
 urls = deque([user_url])
 
